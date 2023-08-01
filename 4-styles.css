@@ -1,0 +1,275 @@
+* {
+margin:0;
+padding:0;
+border:;
+}
+
+		.section-hero {
+		background-image: url(images/headphones_hero_1.jpg );
+		width:100%;
+		height:auto;
+		background-size:cover;
+		background-position:center;
+		margin:0;
+		padding-bottom:40px;
+		}
+/*for desktop*/
+@media screen and (min-width: 480px) {
+		.navbar {
+		width:100%;
+		margin:auto;
+		display:flex;
+		padding:35px 0 ;
+		align-items:center;
+		justify-content:space-between;
+		}
+		.mobmenu {
+		display:none;
+		}
+	
+		.logo {
+		margin-left:25px;
+		width:120px;
+		cursor:pointer;
+		}
+		ul {
+		margin-right:25px;
+		}
+		.navbar ul li {
+		list-style:none;
+		display:inline-block;
+		margin-right:5px;
+		
+		}
+		.navbar ul li a{
+		text-decoration:none;
+		color:white;
+		}
+		.navbar ul li::after{
+		content:' ' ;
+		height : 3px;
+		width: 0;
+		background: #009688;
+		position: absolute;
+		left: 0;
+		bottom: -10px;
+		transition: 0.5s;
+		}
+		ul li a:hover{
+		color:red;
+		transition:0.5s;
+		}
+ }
+ /*for mobile*/
+ @media screen and (max-width: 480px) {
+ .mobmenu {
+ width:35px;
+ height:35px;
+ margin-left:15px;
+ margin-top:29px;
+  margin-bottom:20px;
+  color:white;
+  cursor:pointer;
+ }
+ .logmenu {
+ display:flex;
+ }
+ .logo {
+ 
+ width:247px;
+ height:32px;
+ margin-top:29px;
+ margin-left:21px;
+ }
+.navbar1 {
+         
+         position: relative;
+         display: inline-block;
+      }
+ 
+      .menu  {
+         position:relative;
+         width:auto;
+         height: 0px;
+         transition: height 1s;
+         overflow:hidden;
+         margin-left:20%;
+         text-align:center;
+         
+      }
+      .navbar1:hover  ul  {
+         height: 150px;
+
+      }
+      .navbar1 ul li > a {
+         display: block;
+         padding: 15px;
+         text-decoration: none;
+         color:white;
+         transition-timing-function:1s;
+      }
+      .menu a{
+      transition-duration:1s;
+      }
+   .menu a:hover {
+             color:red;
+             background:none;
+    }  
+  }
+h1 {
+margin-top:30px;
+text-align:center;
+color:white;
+}
+p {
+
+text-align:center;
+color:white;
+
+}
+.but {
+text-align:center;
+margin:15px;
+}
+.but button {
+outline:none;
+border-radius:25px;
+padding:10px;
+background-color:red;
+border-color:red;
+text-decoration-color:white;
+border-style:none;
+transition:0.5s;
+}
+.but button a {
+color:white;
+list-style:none;
+text-decoration:none;
+}
+.what-do-we-do h1 {
+color:black;
+text-align:center;
+margin-top:35px;
+margin-bottom:15px;
+}
+.what-do-we-do p {
+color:black;
+text-align:center;
+}
+.whatwe {
+margin:5px;
+display:flex;
+padding:35px 0 ;
+align-items:center;
+justify-content:space-evenly;
+flex-wrap:wrap;
+text-align:center;
+} 
+.whatwe div {
+width:170px;
+
+
+}
+.whatwe div img, h3  {
+padding:5px;
+
+}
+.hero-2 {
+width:100%;
+height:auto;
+background-image:url("images/headphones_hero_2.jpg");
+
+}
+.hero-2>h1 {
+padding:30px;
+}
+
+.image-list {
+ display: flex; /* Display items in a row */
+ flex-wrap:wrap;
+ justify-content:space-evenly;
+ }
+ 
+ /* Style each list item (image and text container) */
+ .image-list li {
+ position: relative; /* Position for overlaying text on the image */
+ margin-top:20px ; /* Add some space between images, adjust as needed */
+ list-style:none;
+ }
+ 
+ /* Style the images */
+ .image-list img {
+ width: 150px; /* Adjust image size as needed */
+ height: 150px; /* Adjust image size as needed */
+ }
+ /* Style the text on the images */
+ .image-text {
+ position: absolute; /* Position the text over the image */
+ bottom:25px ; /* Adjust the vertical position of the text */
+ left: 25px; /* Adjust the horizontal position of the text */
+ right:25px;
+ align-self:center;
+ backgrond-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent background to improve readability */
+ padding: px; /* Add some padding to the text */
+ border-radius: 5px; /* Optional: Add rounded corners to the text box */
+ font-size: 14px; /* Adjust the font size as needed */
+ font-weight: bold; /* Optional: Make the text bold */
+ color: #000; /* Set the text color */
+ transition:
+ text-justify:center;
+ }
+.image-list {
+padding:10px;
+}
+.contact_us{
+margin:0;
+padding:30px;
+}
+.form {
+text-align:center;
+}
+input {
+padding:10px;
+margin:20px;
+outline:none;
+border:none;
+border-bottom:1px solid black;
+}
+.form>h1 {
+color:black;
+}
+footer {
+background-image: url(images/headphones_hero_1.jpg );
+width:100%;	
+height:auto;	
+}
+.foot {
+padding:30px;
+text-align:center;
+}
+.foot >ul {
+display:flex;
+justify-content:space-evenly;
+justify-content:flex-end;
+text-align:center;
+margin:25px;
+flex-wrap:wrap;
+}
+.info {
+margin:10px;
+width:30px;
+}
+.logo-footer{
+width:120px;
+height:42px;
+position:absolute;
+left:15px;
+}
+.copyright {
+text-align:center;
+color:white;
+margin:0px;
+padding:10px;
+border-top:1px solid black;
+
+  }
